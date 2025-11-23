@@ -54,7 +54,6 @@ FROM stg_games g
 WHERE g.games_json.app_details.success = true;
 
 
-
 create table game_categories as
 select g.games_json.appid,
        unnest(g.games_json.app_details.data.categories).id          as category_id,
