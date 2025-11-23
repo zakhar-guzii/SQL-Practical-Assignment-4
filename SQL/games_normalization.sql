@@ -63,7 +63,6 @@ where g.games_json.app_details.data.categories is not null
   and array_length(g.games_json.app_details.data.categories) > 0
   and g.games_json.app_details.success = true;
 
-drop table game_genres;
 
 create table game_genres as
 select g.games_json.appid,

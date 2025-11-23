@@ -6,7 +6,6 @@ from reviews_summary
          join games on reviews_summary.appid = games.appid
 order by total_reviews desc limit 20;
 
-
 --2
 select count(games.release_date) as games_released, year (TRY_STRPTIME(games.release_date, '%b %d, %Y')) as release_year
 from games
