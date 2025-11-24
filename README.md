@@ -4,8 +4,7 @@ ETL pipeline and analytics for Steam 2025 dataset using DuckDB and Python.
 
 ## Tech Stack
 
-- **DB:** DuckDB  
-- **Query Language:** SQL (DuckDB dialect)  
+- **DB:** DuckDB 
 - **Visualization:** Python 3.x (Pandas, Seaborn, Matplotlib)  
 
 ## ETL Process
